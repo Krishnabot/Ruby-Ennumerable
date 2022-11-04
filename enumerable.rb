@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# module MYEnumerable
 module MyEnumerable
   def all?
     result = true
@@ -15,7 +18,6 @@ module MyEnumerable
     result
   end
 
-  
   def filter
     result = []
     each do |item|

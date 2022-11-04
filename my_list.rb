@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require_relative 'enumerable'
 
+# Initialised class MyList
 class MyList
   include MyEnumerable
 
@@ -13,7 +16,6 @@ class MyList
     @list.each { |element| block.call(element) }
   end
 end
-
 
 # Create our list
 list = MyList.new(1, 2, 3, 4)
